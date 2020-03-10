@@ -21,7 +21,7 @@
 # define attribute_hidden
 #endif
 
-#define BIBYYLMAX 131072
+#define BIBYYLMAX 1048576 /* increase maximum bibtex file size to 1 MB */
 void	_yyerror(const char *s_);
 int		yylex(void);
 int		yyparse(void);
